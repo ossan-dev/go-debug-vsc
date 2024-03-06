@@ -23,6 +23,23 @@
                 "-test.run",
                 "TestCalculateAmount"
             ]
+        },
+        {
+            "name": "debug-integration-test",
+            "type": "go",
+            "request": "launch",
+            "mode": "test",
+            "program": "${fileDirname}",
+            "buildFlags": [
+                "-tags=integration"
+            ],
+            "args": [
+                "-test.v",
+                "-test.run",
+                "TestInventorySuite",
+                "-testify.m", // for a specific test
+                "TestAddItemHappyPath" // for a specific test
+            ]
         }
     ]
 }
