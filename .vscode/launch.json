@@ -40,6 +40,35 @@
                 "-testify.m", // for a specific test
                 "TestAddItemHappyPath" // for a specific test
             ]
+        },
+        {
+            "name": "ms-billing",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/ms-billing/main.go",
+            "envFile": "${workspaceFolder}/ms-billing/.env",
+            "env": {
+                "PORT": "8081" // win if conflicts with "envfile"
+            }
+        },
+        {
+            "name": "ms-inventory",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/ms-inventory/main.go",
+            "envFile": "${workspaceFolder}/ms-inventory/.env"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "ms-all",
+            "configurations": [
+                "ms-billing",
+                "ms-inventory"
+            ],
+            "stopAll": true
         }
     ]
 }
