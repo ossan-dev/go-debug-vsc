@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach Local Proc",
+            "type": "go",
+            "request": "attach",
+            "mode": "local",
+            "processId": 0
+        },
+        {
             "name": "Launch Package",
             "type": "go",
             "request": "launch",
@@ -59,7 +66,7 @@
             "mode": "auto",
             "program": "${workspaceFolder}/ms-inventory/main.go",
             "envFile": "${workspaceFolder}/ms-inventory/.env"
-        }
+        },
     ],
     "compounds": [
         {
