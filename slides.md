@@ -32,7 +32,7 @@ Sections are stated in _italic_ font. They won't be translated into slides.
 1. Compound Configuration
 1. _Other Options_
 1. Debug stdin
-1. Increase the max chars you can have in a variable
+1. Increase the max chars you can have in a variable (not implemented yet)
 1. Global Variables
 1. Evaluate in Console
 1. _Outro_
