@@ -16,6 +16,7 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
+            "showGlobalVariables": true,
             "program": "${workspaceFolder}/main.go",
             "console": "integratedTerminal"
         },
