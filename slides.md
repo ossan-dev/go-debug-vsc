@@ -14,15 +14,18 @@ Sections are stated in _italic_ font. They won't be translated into slides.
 1. Projects we can debug
 1. Unit Tests, Integration Tests, CLI apps, Microservices, etc
 1. _Delve Debugger_
-1. Delve Debugger
-1. Key features
+1. Delve
+1. Overview
 1. DAP
+1. How to switch
+1. Delve in a Nutshell
+1. Key features
 1. _VSCode Section_
 1. Reasons to use VSCode
 1. built-in VSCode variables
 1. settings.json
 1. launch.json file
-1. launch.json profiles
+1. launch.json configurations
 1. Meme: debug a test (mindblowing image)
 1. Debug Unit Test
 1. (Conditional Breakpoints)
@@ -38,3 +41,8 @@ Sections are stated in _italic_ font. They won't be translated into slides.
 1. _Outro_
 1. Contacts
 1. Thanks!
+
+## Resources
+
+- <https://github.com/golang/vscode-go/blob/master/docs/debugging.md>
+- <https://microsoft.github.io/debug-adapter-protocol/>
