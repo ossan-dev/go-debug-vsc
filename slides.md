@@ -29,14 +29,17 @@ Sections are stated in _italic_ font. They won't be translated into slides.
 1. Meme: debug a test (mindblowing image)
 1. Debug Unit Test
 1. (Conditional Breakpoints)
-1. Debug Integration Test
-1. Launch & Debug a local pkg
-1. Attach to process
-1. Compound Configuration
+1. Debug Integration Test: Source
+1. Debug Integration Test: Test
+1. Attach to process: Preparation
+1. Attach to process: Run
+1. Compound Configuration: Source
+1. Compound Configuration: Debug
+1. Compound Configuration: Run
 1. _Other Options_
 1. Debug stdin
-1. Increase the max chars you can have in a variable (not implemented yet)
-1. Global Variables
+1. Global Variables: Hidden
+1. Global Variables: Shown
 1. Evaluate in Console
 1. _Outro_
 1. Contacts
