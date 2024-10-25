@@ -6,7 +6,7 @@ import (
 
 var PersonGreeted string = ""
 
-// func to evaluate in "Debug Console"
+// func to evaluate in "Debug Console REPL"
 func getEvenNumbers(max int) (res []int) {
 	for i := range max {
 		if i%2 == 0 {

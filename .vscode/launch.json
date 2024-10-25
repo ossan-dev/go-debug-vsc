@@ -9,7 +9,7 @@
       "type": "go",
       "request": "attach",
       "mode": "local",
-      "processId": 0
+      "processId": 0 // selected via the Command Palette
     },
     {
       "name": "Launch Package",
@@ -29,7 +29,7 @@
       "args": [
         "-test.v",
         "-test.run",
-        "TestCalculateAmount"
+        "TestCalculateAmount" // or "TestCalculateAmount/HappyPath"
       ]
     },
     {
