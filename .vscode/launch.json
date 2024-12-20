@@ -72,12 +72,18 @@
       "name": "debug-docker-container",
       "type": "go",
       "request": "attach",
-      "debugAdapter": "legacy",
+      "trace": "info",
+      "showLog": true,
+      "debugAdapter": "dlv-dap",
       "mode": "remote",
       "port": 2345,
-      "host": "127.0.0.1",
-      "trace": "info",
-      "showLog": true
+      "host": "127.0.0.1", // can be omitted for localhost
+      "substitutePath": [
+        {
+          "from": "${workspaceFolder}/greetings-ms",
+          "to": "/app"
+        }
+      ]
     }
   ],
   "compounds": [
